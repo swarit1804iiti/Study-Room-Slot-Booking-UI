@@ -49,3 +49,9 @@ The system prevents double booking and stores all bookings using browser localSt
 
 3.script.js
 =>It Handles booking logic, slot interaction, and localStorage persistence
+
+<img width="1710" height="850" alt="Screenshot 2026-03-17 at 1 12 04 AM" src="https://github.com/user-attachments/assets/3de7a8eb-6476-4468-9b49-4f15e59eae89" />
+
+<img width="1710" height="905" alt="Screenshot 2026-03-17 at 1 10 18 AM" src="https://github.com/user-attachments/assets/2d523845-02f1-4544-86ff-8f0c852d8594" />
+
+
