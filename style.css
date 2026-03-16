@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+nav {
+    margin: 10px 300px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid rgba(178, 173, 173, 0.719);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+ul {
+    background-color: #f2f2f2;
+    border: 2px solid rgba(210, 205, 205, 0.719);
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    font-weight: 600;
+    font-family: sans-serif;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+
+nav span img {
+    width: 100px;
+}
+
+ul li:hover {
+    color: rgba(39, 38, 38, 0.789);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.heading {
+    height: 200px;
+    margin: 30px 0px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: 600;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+
+
+#rooms-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin-top: 100px;
+
+}
+
+.room {
+    background: white;
+    padding: 20px;
+    width: 700px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 20px;
+    margin-bottom: 10px;
+}
+
+
+.slot {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    
+}
+.slot:hover{
+    transform: translateX(15px);
+}
+
+.available {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.booked {
+    background-color: #e74c3c;
+    color: white;
+    cursor: not-allowed;
+}
